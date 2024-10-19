@@ -1,8 +1,8 @@
 #include <iostream>
-#include <vector>
 
 //typedef std::string culodemono;
 //typedef int pedos;
+//Podemos usar typedef, pero es preferible usar using:
 
 using culodemono = std::string;
 using pedos = int;
