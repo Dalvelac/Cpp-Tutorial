@@ -1,39 +1,54 @@
 #include <iostream>
 
-// Probar los codigos quitando los comentarios de cada uno y ejecutando el programa.
+int main() {
+    // Inicializamos la variable students con el valor 20
+    const int initial_students = 20;
+    int students = initial_students; 
+    std::cout << "Valor inicial de students: " << students << std::endl;
 
-int main(){
+    // Suma
+    students = students + 1; // Esto va a sumar 1 a la variable students.
+    std::cout << "Después de students = students + 1: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
-    int students = 20; 
-    // Si necesitamos que hayan decimales, cambiamos de "int students" a "float students" o "double students".
-    // int students = (6 - 5) * 2 + 4 / 2; // Se siguen las reglas de la jerarquia de operaciones.
-    
-    //Suma
-    // students = students + 1; // Esto va a sumar 1 a la variable students.
-    // students +=1; // Esto va a sumar 1 a la variable students.
-    // students++; // Esto va a sumar 1 a la variable students, es lo mismo que students +=1, pero se utiliza mas en bucles.
+    students += 1; // Esto va a sumar 1 a la variable students.
+    std::cout << "Después de students += 1: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
+    students++; // Esto va a sumar 1 a la variable students, es lo mismo que students += 1, pero se utiliza más en bucles.
+    std::cout << "Después de students++: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
-    //Resta
-    // students = students - 1; // Esto va a restar 1 a la variable students.
-    // students--; //  Esto va a restar 1 a la variable students, es lo mismo que students -=1, pero se utiliza mas en bucles.
-    // students -=1; // Esto va a restar 1 a la variable students.
+    // Resta
+    students = students - 1; // Esto va a restar 1 a la variable students.
+    std::cout << "Después de students = students - 1: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
+    students--; // Esto va a restar 1 a la variable students, es lo mismo que students -= 1, pero se utiliza más en bucles.
+    std::cout << "Después de students--: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
-    //Multiplicacion
-    // students = students * 2; // Esto va a multiplicar por 2 a la variable students.
-    // students *=2; // Esto va a multiplicar por 2 a la variable students.
+    students -= 1; // Esto va a restar 1 a la variable students.
+    std::cout << "Después de students -= 1: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
+    // Multiplicación
+    students = students * 2; // Esto va a multiplicar por 2 a la variable students.
+    std::cout << "Después de students = students * 2: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
-    //Division
-    // students = students / 2; // Esto va a dividir por 2 a la variable students.
-    // students /=2; // Esto va a dividir por 2 a la variable students.
+    students *= 2; // Esto va a multiplicar por 2 a la variable students.
+    std::cout << "Después de students *= 2: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
+    // División
+    students = students / 2; // Esto va a dividir por 2 a la variable students.
+    std::cout << "Después de students = students / 2: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
-    //Resto
-    // students = students % 2; // Esto va a devolver el resto de la division por 2 a la variable students.
-
-    std::cout << students;
+    students /= 2; // Esto va a dividir por 2 a la variable students.
+    std::cout << "Después de students /= 2: " << students << std::endl;
+    students = initial_students; // Volver al valor inicial
 
     return 0;
 }
