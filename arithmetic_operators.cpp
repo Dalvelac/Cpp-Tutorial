@@ -35,4 +35,5 @@ int main(){
 
     std::cout << students;
 
+    return 0;
 }
