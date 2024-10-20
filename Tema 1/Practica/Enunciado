@@ -13,5 +13,3 @@ Requisitos:
 4. El programa debe mostrar el resultado de la hipotenusa en la consola.
 
 5. El programa debe manejar entradas no válidas de manera adecuada (por ejemplo, valores negativos o no numéricos).
-
-Ejemplo de uso:
