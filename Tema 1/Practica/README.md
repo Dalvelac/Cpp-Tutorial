@@ -9,8 +9,10 @@ Requisitos:
 2. El programa debe solicitar al usuario que ingrese las longitudes de los dos catetos.
 
 3. El programa debe calcular la hipotenusa utilizando la fórmula: 
-    ![Formula Hipotenusa](https://github.com/Dalvelac/Cpp-Tutorial/blob/Imagenes/Formulahipotenusa.JPG?raw=true)
+    c = raiz a^2 + b^2
+
 4. El programa debe mostrar el resultado de la hipotenusa en la consola.
 
 5. El programa debe manejar entradas no válidas de manera adecuada (por ejemplo, valores negativos o no numéricos).
 
+Ejemplo de uso:
