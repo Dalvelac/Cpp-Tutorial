@@ -1,18 +1,18 @@
 #include <iostream>
 
-namespace first {
+namespace first {  // Creamos un namespace llamado first, y damos valores a tres variables.
     int a = 43929;
     int b = 312838;
     int c = 13131;
 }
 
-namespace second {
+namespace second { // Creamos un namespace llamado second, y damos valores a tres variables.
     int a = 532;
     int b = 213;
     int c = 123;
 }
 
-namespace third {
+namespace third { // Creamos un namespace llamado third, y damos valores a dos strings.
     std::string z = "Que tal!";
     std::string x = "Muy bien";
 
